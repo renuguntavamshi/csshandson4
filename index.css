@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading1{
+    background-image:linear-gradient(to right,red, green ,yellow);
+    text-align: center;
+    text-decoration: underline;
+}
+.list{
+    width:80%;
+    height: auto;
+    border:2px solid red;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    background-color: rgb(58, 249, 249);
+    list-style-position: inside;
+}
+
+.list>ul >li{
+    list-style-type: disc;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:99.8%;
+    height: auto;
+    flex-wrap: wrap;
+    border:2px solid red;
+   
+    background-color: rgb(58, 249, 249);
+ }
+ .flexcard1{
+    width:30%;
+    margin:3px;
+    padding:4px;
+    border-radius: 6px;
+    border:   2px solid green;
+ }
+ .secondheading{
+    background-image:linear-gradient(to right,red ,yellow,red);
+    text-align: center;
+        padding-bottom: 8px;
+}
+.flexcontainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:99.8%;
+    height: 220px;
+    flex-wrap: wrap;
+    border:2px solid green;
+   
+    background-image:radial-gradient(blue,green);
+}
+.flexcard2{
+    width:150px;
+    margin:23px;
+    padding:14px;
+    border-radius: 6px;
+    background-color: rgb(227, 227, 12);
+    border:   2px solid red;
+    color:rgb(132, 28, 28);
+    line-height: 22px;
+    text-align: center;
+}
+.heading3{
+    background-color:rgb(226, 69, 69);
+    text-align: center;
+       color:white;
+   padding-bottom: 9px;
+   letter-spacing: 0.8px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 40px 60px 120px 30px;
+   
+}
+.grid-item{
+    
+  margin:3px;
+  color:white;
+ 
+}
+.item1{
+  grid-column:1/ span 4;
+  grid-row:1;
+  background-color:rgb(226, 69, 69);
+  text-align: center;
+    
+ padding-bottom: 9px;
+ letter-spacing: 0.8px;
+}
+.item2{
+    background-color: green;
+    font-size: larger;
+    text-align: center;
+}
+.item3{
+    background-color: rgb(16, 44, 158);
+    font-size: larger;
+}
+.item4{
+    background-color: rgb(76, 25, 148);
+    font-size: medium;
+    
+}
+.item5{
+    grid-row:2/ span 2;
+    grid-column: 4;
+    background-color: rgb(48, 70, 70);
+}
+.item6{
+    background-color: orange;
+}
+ol{
+    list-style-position:inside;
+    line-height: 16px;
+}
+.item6{
+    grid-row:3;
+    grid-column:1/ span 3;
+    font-size: larger;
+}
+.item7{
+    background-color: aqua;
+    grid-row:4;
+    grid-column:1/span 4;
+    text-align: center;
+    color:black;
+    font-size: larger;
+}
